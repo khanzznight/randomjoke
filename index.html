@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./emoji.svg">
+    <title>Random Joke</title>
+</head>
+
+<body>
+    <div class="main-container flex justify-content-center align-items-center">
+        <div class="box-container">
+            <div class="center flex justify-content-center align-items-center">
+                <h1 class="logo">Random Joke</h1>
+                <img src="./emoji.svg" class="emoji" alt="">
+            </div>
+            <div class="btn-copy-box flex">
+                <button class="btn flex justify-content-center align-items-center" id="copyJoke">Copy Joke</button>
+            </div>
+            <div class="text-box flex justify-content-center align-items-center">
+                <div id="loader" class="flex justify-content-center align-items-center">
+                    <div class="sp sp-circle"></div>
+                </div>
+                <p id="apiResponse" class="joke"></p>
+            </div>
+            <button type="submit" class="btn flex justify-content-center align-items-center generate"
+                id="apiCall">Generate New</button>
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Joke</title>
+</head>
+<body>
+    
+    <div class="card">
+        <img src="" alt="emoji">
+        <p id="apiResponse"></p>
+        <button id="apiCall">Generate</button>
+
+        <button id="copyJoke">Copy</button>
+    </div>
+    
+    <script src="./script.js"></script>
+</body>
+</html> -->
